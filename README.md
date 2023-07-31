@@ -14,9 +14,13 @@ Official codebase for paper [Transmission Interface Power Flow Adjustment: A Dee
 
 ## Prerequisites
 
-#### Install dependencies
-
-See `requirments.txt` file for more information about how to install the dependencies.
+### Install dependencies
+* Python 3.8.13 or higher
+* dgl 1.1.1 or higher
+* Pytorch 1.13.0
+* Pandapower 2.11.1
+* gym 0.23.1
+* tianshou 0.4.11
 
 
 ## Usage
