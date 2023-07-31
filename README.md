@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
 
-Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map]([url](https://ieeexplore.ieee.org/abstract/document/10192091)https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [tianshou](https://github.com/oxwhirl/pymarl) framework and please refer to that repo for more documentation.
+Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map]([url](https://ieeexplore.ieee.org/abstract/document/10192091)https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [Tianshou](https://github.com/thu-ml/tianshou) and [PandaPower](https://github.com/e2nIEE/pandapower) framework and please refer to those repo for more documentation.
 
 
 ## Overview
