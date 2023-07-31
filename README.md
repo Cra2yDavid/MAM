@@ -24,8 +24,8 @@ See `requirments.txt` file for more information about how to install the depende
 Please follow the instructions below to replicate the results in the paper.
 
 ```bash
-# IEEE 118-bus System
-python train.py
+# IEEE 118-bus System under S10~(Single 10-Interface) task
+python train.py --case='case118' --task='S10' --method='MAM' --model='Attention'
 ```
 ![image](https://github.com/Cra2yDavid/MAM/blob/main/exp.png)
 
