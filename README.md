@@ -4,7 +4,7 @@
 
 Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map](https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [Tianshou](https://github.com/thu-ml/tianshou) and [PandaPower](https://github.com/e2nIEE/pandapower) framework and please refer to those repo for more documentation. Baseline methods include [Soft-Module](https://github.com/RchalYang/Soft-Module) and traditional full-connected neural network.
 
-A novel approach named as [ASF](https://github.com/Cra2yDavid/ASF) is recently proposed to solve the same task as an enhancement to MAM. 
+A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently proposed to solve the same task as an enhancement to MAM. 
 
 
 ## Overview
