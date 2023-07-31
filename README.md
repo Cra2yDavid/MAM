@@ -25,7 +25,7 @@ Official codebase for paper [Transmission Interface Power Flow Adjustment: A Dee
 
 ## Usage
 
-Please follow the instructions below to replicate the results in the paper.
+Please follow the instructions below to replicate the results in the paper. Note that the model of China realistic 300-bus system is not available due to confidentiality policies of SGCC.
 
 ```bash
 # IEEE 118-bus System under S10 (Single 10-Interface) task
