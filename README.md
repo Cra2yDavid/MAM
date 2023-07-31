@@ -23,6 +23,9 @@ A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently p
 * Pandapower 2.11
 * gym 0.23
 * tianshou 0.4.11
+* numpy 1.22.4
+* numba 0.55.2
+* pandas 1.4.2
 
 
 ## Usage
