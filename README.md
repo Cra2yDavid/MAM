@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
 
-Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map]([url](https://ieeexplore.ieee.org/abstract/document/10192091)https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [Tianshou](https://github.com/thu-ml/tianshou) and [PandaPower](https://github.com/e2nIEE/pandapower) framework and please refer to those repo for more documentation.
+Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map](https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [Tianshou](https://github.com/thu-ml/tianshou) and [PandaPower](https://github.com/e2nIEE/pandapower) framework and please refer to those repo for more documentation.
 
 
 ## Overview
@@ -16,7 +16,7 @@ Official codebase for paper [Transmission Interface Power Flow Adjustment: A Dee
 
 #### Install dependencies
 
-See `requirment.txt` file for more information about how to install the dependencies.
+See `requirments.txt` file for more information about how to install the dependencies.
 
 
 ## Usage
@@ -27,7 +27,7 @@ Please follow the instructions below to replicate the results in the paper.
 # IEEE 118-bus System
 python train.py
 ```
-
+![image](https://github.com/Cra2yDavid/MAM/blob/main/exp.png)
 
 
 ## Citation
