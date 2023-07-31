@@ -30,8 +30,10 @@ A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently p
 Please follow the instructions below to replicate the results in the paper. Note that the model of China realistic 300-bus system is not available due to confidentiality policies of SGCC.
 
 ```bash
-# IEEE 118-bus System under S10 (Single 10-Interface) task
-python train.py --case='case118' --task='S10' --method='MAM' --model='Attention'
+# IEEE 9241-bus System under S10 (Single 10-Interface) task
+python train.py --case='case9241' --task='S10' --method='MAM' --model='Attention'
+# IEEE 118-bus System under M5 (Multiple 5-Interface) task
+python train.py --case='case118' --task='M5' --method='MAM' --model='Attention'
 ```
 ![image](https://github.com/Cra2yDavid/MAM/blob/main/exp.png)
 
