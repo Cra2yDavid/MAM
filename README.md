@@ -35,7 +35,7 @@ Please follow the instructions below to replicate the results in the paper. Note
 * Unzip the data for training and testing under the same working directory:
 
 ```bash
-tar -Jxvf test.tar.xz
+tar -Jxvf data.tar.xz
 ```
 
 * Train the DRL agent with MAM:
