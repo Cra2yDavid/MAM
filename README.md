@@ -44,6 +44,8 @@ tar -Jxvf data.tar.xz
 python train.py --case='case9241' --task='S10' --method='MAM' --model='Attention'
 # IEEE 118-bus System under M5 (Multiple 5-Interface) task
 python train.py --case='case118' --task='M5' --method='MAM' --model='Attention'
+# IEEE 9241-bus System under M3 (Multiple 3-Interface) task
+python train.py --case='case9241' --task='M3' --method='MAM' --model='Attention'
 ```
 ![image](https://github.com/Cra2yDavid/MAM/blob/main/exp.png)
 
