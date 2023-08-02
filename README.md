@@ -40,16 +40,16 @@ tar -Jxvf data.tar.xz
 
 * Train the DRL agent with MAM:
 ```bash
-# IEEE 118-bus System under S10 (Single 10-Interface) task
+# IEEE 118-bus System under the multi-task setting (10 single-interface tasks)
 python train.py --case='case118' --task='S10' --method='MAM' --model='Attention'
 
-# IEEE 9241-bus System under S10 (Single 10-Interface) task
+# IEEE 9241-bus System under the multi-task setting (10 single-interface tasks)
 python train.py --case='case9241' --task='S10' --method='MAM' --model='Attention'
 
-# IEEE 118-bus System under M5 (Multiple 5-Interface) task
+# IEEE 118-bus System under the multi-task setting (different 5-interface tasks)
 python train.py --case='case118' --task='M5' --method='MAM' --model='Attention'
 
-# IEEE 9241-bus System under M3 (Multiple 3-Interface) task
+# IEEE 9241-bus System under the multi-task setting (different 3-interface tasks)
 python train.py --case='case9241' --task='M3' --method='MAM' --model='Attention'
 ```
 ![image](https://github.com/Cra2yDavid/MAM/blob/main/exp.png)
