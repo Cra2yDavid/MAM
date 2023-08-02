@@ -2,7 +2,7 @@
 
 [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
 
-Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map](https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [Tianshou](https://github.com/thu-ml/tianshou) and [PandaPower](https://github.com/e2nIEE/pandapower) framework and please refer to those repo for more documentation. Baseline methods include [Soft-Module](https://github.com/RchalYang/Soft-Module) and a conventional fully-connected neural network.
+Official codebase for paper [Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach based on Multi-task Attribution Map](https://ieeexplore.ieee.org/abstract/document/10192091). This codebase is based on the open-source [Tianshou](https://github.com/thu-ml/tianshou) and [PandaPower](https://github.com/e2nIEE/pandapower) framework and please refer to those repo for more documentation.
 
 A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently proposed to solve the same task as an enhancement to MAM. 
 
@@ -19,7 +19,7 @@ A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently p
 ### Install dependencies
 * Python 3.8.13 or higher
 * dgl 1.1 or higher
-* Pytorch 1.13
+* torch 1.13
 * Pandapower 2.11
 * gym 0.23
 * tianshou 0.4.11
@@ -40,10 +40,15 @@ tar -Jxvf data.tar.xz
 
 * Train the DRL agent with MAM:
 ```bash
+# IEEE 118-bus System under S10 (Single 10-Interface) task
+python train.py --case='case118' --task='S10' --method='MAM' --model='Attention'
+
 # IEEE 9241-bus System under S10 (Single 10-Interface) task
 python train.py --case='case9241' --task='S10' --method='MAM' --model='Attention'
+
 # IEEE 118-bus System under M5 (Multiple 5-Interface) task
 python train.py --case='case118' --task='M5' --method='MAM' --model='Attention'
+
 # IEEE 9241-bus System under M3 (Multiple 3-Interface) task
 python train.py --case='case9241' --task='M3' --method='MAM' --model='Attention'
 ```
