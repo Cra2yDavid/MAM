@@ -17,15 +17,15 @@ A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently p
 ## Prerequisites
 
 ### Install dependencies
-* Python 3.8.13 or higher
-* dgl 1.1 or higher
-* torch 1.13
-* Pandapower 2.11
-* gym 0.23
-* tianshou 0.4.11
-* numpy 1.22.4
-* numba 0.55.2
-* pandas 1.4.2
+* python==3.8.13
+* dgl==1.1
+* torch==1.13
+* pandapower==2.11
+* gym==0.23
+* tianshou==0.4.11
+* numpy==1.22.4
+* numba==0.55.2
+* pandas==1.4.2
 
 
 ## Usage
