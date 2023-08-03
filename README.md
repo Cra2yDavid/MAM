@@ -30,7 +30,7 @@ A novel approach named as [FSA](https://github.com/Cra2yDavid/FSA) is recently p
 
 ## Usage
 
-Please follow the instructions below to replicate the results in the paper. Note that the model of China realistic 300-bus system is not available due to confidentiality policies of SGCC.
+Please follow the instructions below to replicate the results in the paper. Note that the model of the realistic 300-bus system in China is not available due to confidentiality policies of SGCC.
 
 * Unzip the data for training and testing under the same working directory:
 
