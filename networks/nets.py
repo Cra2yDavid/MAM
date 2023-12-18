@@ -451,7 +451,7 @@ class SelfAttentionNet(nn.Module):
 
         temperature = k.shape[0] ** 0.5
 
-        attn = torch.bmm(q.transpose(1, 2), k/temperature)
+        attn = torch.bmm(q, (k/temperature).transpose(1, 2))
         attn = self.f(attn)
         out = torch.bmm(v, attn).view(ba, -1)
 
