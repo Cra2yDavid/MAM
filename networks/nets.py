@@ -453,7 +453,7 @@ class SelfAttentionNet(nn.Module):
 
         attn = torch.bmm(q, (k/temperature).transpose(1, 2))
         attn = self.f(attn)
-        out = torch.bmm(v, attn).view(ba, -1)
+        out = torch.bmm(attn, v).view(ba, -1)
 
         if self.use_dueling:  # Dueling DQN
             Q, V = self.Q(out), self.V(out)
