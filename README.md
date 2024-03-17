@@ -64,10 +64,10 @@ If you find this work useful for your research, please cite our paper:
   author={Liu, Shunyu and Luo, Wei and Zhou, Yanzhen and Chen, Kaixuan and Zhang, Quan and Xu, Huating and Guo, Qinglai and Song, Mingli},
   journal={IEEE Transactions on Power Systems}, 
   title={Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach Based on Multi-Task Attribution Map}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-12},
+  year={2024},
+  volume={39},
+  number={2},
+  pages={3324-3335},
   doi={10.1109/TPWRS.2023.3298007}
 }
 ```
