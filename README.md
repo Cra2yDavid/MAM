@@ -60,7 +60,7 @@ python train.py --case='case9241' --task='M3' --method='MAM' --model='Attention'
 If you find this work useful for your research, please cite our paper:
 
 ```
-@article{liu2023MAM,
+@article{liu2024MAM,
   author={Liu, Shunyu and Luo, Wei and Zhou, Yanzhen and Chen, Kaixuan and Zhang, Quan and Xu, Huating and Guo, Qinglai and Song, Mingli},
   journal={IEEE Transactions on Power Systems}, 
   title={Transmission Interface Power Flow Adjustment: A Deep Reinforcement Learning Approach Based on Multi-Task Attribution Map}, 
