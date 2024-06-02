@@ -67,7 +67,7 @@ If you find this work useful for your research, please cite our paper:
   year={2024},
   volume={39},
   number={2},
-  pages={3324-3335},
+  pages={3324--3335},
   doi={10.1109/TPWRS.2023.3298007}
 }
 ```
